@@ -1,0 +1,74 @@
+body{
+    background-color: #2D5C7F;
+}
+
+.Box{
+    border: 10px solid #FF8F56;
+    border-radius: 40px;
+    height: 200px;
+    width: 350px;
+    margin-top: -150px;
+    margin-left: -180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #FFF1A8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.BoxBottom{
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    border-color: #FF8F56;
+    background-color: #FFF1A8;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -180px;
+    height: 150px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 0;
+}
+.field{
+    font-family: 'Abel';
+    width: 150px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+#login{
+    font-family: 'Abel';
+    font-size: 20px;
+    height: 40px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #984A59;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#outputText{
+    font-family: "Abel";
+}
+.textBox{
+    border-bottom: 2px solid grey;
+
+}
